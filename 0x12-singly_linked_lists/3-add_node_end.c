@@ -1,3 +1,12 @@
+alx-low_level_programming/0x12-singly_linked_lists/3-add_node_end.c
+@BrightDaniel
+BrightDaniel singly linked list commits
+…
+Latest commit 0ca255b on Aug 11, 2022
+ History
+ 1 contributor
+54 lines (50 sloc)  919 Bytes
+
 #include <stdlib.h>
 #include <string.h>
 #include "lists.h"
@@ -52,3 +61,4 @@ list_t *add_node_end(list_t **head, const char *str)
 	tmp->next = new;
 	return (new);
 }
+
